@@ -1,0 +1,131 @@
+.hero-area {
+  background: #000 url('/assets/images/illustrations/bghero.png') no-repeat scroll;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 0px;
+  padding: 250px 0 150px;
+  position: relative;
+  @include tablet {
+    padding: 250px 0 150px;
+    overflow: hidden;
+  }
+  @include mobile {
+    background: #7bbefa url('/assets/images/illustrations/bghero.png') no-repeat scroll;
+    background-position: center;
+    position: relative;
+    padding: 280px 0 180px;
+    overflow: hidden;
+  }
+  h1 {
+    text-align: left;
+    margin-top: -8%;
+    position: relative;
+    font-size: 4rem;
+    z-index: 2;
+
+    @include mobile {
+      text-align: center;
+      margin-top: -20%;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.layer {
+  position: absolute;
+  z-index: 1;
+}
+
+#l1 {
+  bottom: 0;
+  left: 0;
+}
+
+#l2 {
+  top: 190px;
+  left: -250px;
+}
+
+#l3 {
+  top: 200px;
+  left: 40%;
+}
+
+#l4 {
+  top: 200px;
+  right: 40%;
+}
+
+#l5 {
+  top: 100px;
+  right: -150px;
+}
+
+#l6 {
+  bottom: -20px;
+  left: 10%;
+}
+
+#l7 {
+  bottom: 100px;
+  left: 20%;
+}
+
+#l8 {
+  bottom: 160px;
+  right: 45%;
+}
+
+#l9 {
+  bottom: 100px;
+  right: -10px;
+}
+
+.layer-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tombol-hero-utama {
+  position: relative;
+  margin-top: 15px;
+  text-align: left;
+  @include mobile {
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+    z-index: 9999;
+  }
+}
+
+.tombol-hero {
+  margin-bottom: -20px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  color: #7bbefa;
+  padding: 12px 38px;
+}
+.tombol-hero:hover,
+.tombol-hero:focus {
+  background-color: #7bbefa;
+  color: white;
+}
+
+.tombol-hero-line {
+  margin-bottom: -20px;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: #7bbefa;
+  color: #fff;
+  padding: 12px 38px;
+}
+.tombol-hero-line:hover,
+.tombol-hero-line:focus {
+  background-color: #fff;
+  color: #7bbefa;
+}

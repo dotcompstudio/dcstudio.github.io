@@ -1,0 +1,267 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: DotComp Studio
+logo: assets/images/dc-logo.png
+author: DC Studio
+description: DotComp Studio Service Center And Website Online Solution For Your business
+email: contact.dcstudio@gmail.com
+phone: 08234050150
+
+address: LB, Pengadangan, Lombok Timur, Nusa Tenggara Barat, Indonesia
+copyright: Copyright &copy; 2021 [DC Studio](https://dcstudio.my.id)
+
+menu:
+  - { name: About, link: '/about' }
+  - { name: Services, link: '/services' }
+  - { name: Blog, link: '/blog' }
+  - { name: Portfolio, link: '/portfolio' }
+  - { name: Contact, link: '/contact' }
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: DotComp Studio
+
+social:
+  - { icon: 'ti-facebook', link: 'https://facebook.com/dotcomp.studio' }
+  - { icon: 'ti-instagram', link: 'https://instagram.com/dotcomp.studio' }
+  - { icon: 'ti-dribbble', link: 'https://dribble.com/dotcomp.studio' }
+  - { icon: 'ti-twitter', link: 'https://twitter.com/dotcomp.studio' }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: DotComp Studio Atau disingkat DC Studio adalah studio service dan solusi online bagi masyarakat umum, kami memberikan jasa perbaikan software laptop atau komputer kami juga memberikan online solution seperti pembuatan brand, logo brand, website, blog profesional, penulisan artikel pro dan beberapa jenis kebutuhan untuk meng-onlinekan bisnismu.
+
+blurb-btn-link: '/about'
+blurb-btn-name: Lebih Lengkap Tentang Kami
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title: 'Research and Plan'
+    icon: 'assets/images/icons/plan.png'
+    content: 'Pertama kami akan berkonsultasi dengan anda agar semua proses sesuai keinginan anda, setelah itu kami akan memikirkan dan mencari ide semenarik mungkin.'
+
+  - title: 'Design and Develop'
+    icon: 'assets/images/icons/design.png'
+    content: 'Proses desain atau pembuatan pesanan yang anda pesan, ini mungkin memerlukan waktu yang lumayan menyita karena sesuatu yang terburu-buru itu tidak akan baik.'
+
+  - title: 'Deliver'
+    icon: 'assets/images/icons/print.png'
+    content: 'Service atau Pesanan anda akan kami berikan melalui user 1 (tanpa pihak ke 3). yang artinya kami harus menjamin pihak pemesan yang langsung menerima service atau pesanan.'
+
+# My Team Section
+team:
+  - title: 'Khai Uta'
+    image: 'assets/images/team/member-1.png'
+    designation: 'DC Studio Owner'
+
+#  - title : "Julias Carlie"
+#    image : "assets/images/team/member-2.png"
+#    designation : "Web Developer"
+
+#  - title : "John Doe"
+#    image : "assets/images/team/member-3.png"
+#    designation : "Designer"
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Web Design, color: '#fdb157', value: '90%' }
+  - { name: Logo Design, color: '#9473e6', value: '60%' }
+  - { name: Service Software, color: '#bdecf6', value: '80%' }
+  - { name: Web App, color: '#ffbcaa', value: '70%' }
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+  - { name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2017 - Feb 2019', organization: 'WEBEX' }
+  - { name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2019 - Aug 2020', organization: 'AUGMEDIX' }
+  - { name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2021 - Present', organization: 'THEMEFISHER' }
+
+#-------------------------------
+# Education Section
+
+education-title: Penghargaan
+education:
+  - { name: TOP 10 Design UI/UX , date: 'Tahun 2017', organization: 'PIGMA Competition 2017' }
+  - { name: TOP 5 Best Blog , date: 'Tahun 2019', organization: 'IWA 2019 - Site Of The Year' }
+  - { name: Higher Secondary Certificat, date: 'Tahun 2020', organization: 'Cardiff School' }
+  - { name: Secondary School Certificate, date: 'Tahun 2020', organization: 'Cardiff School' }
+
+#-------------------------------
+# Services Section
+
+services-title: Services Kami
+services:
+  - {
+      name: Perbaikan Software,
+      icon: ti-panel,
+      description: 'Kami menerima jasa installasi All Software, Windows, Linux, Ubuntu. Pekerjaan Cepat dan bisa COD Dan juga bisa datang langsung ke tempat anda (sarat lokasi berlaku).',
+      active: , # Add true to select section
+    }
+  - {
+      name: Build or Design <br/> Website / Blog / App,
+      icon: ti-palette,
+      description: ' Kami menerima jasa pembuatan Website dan Blog Profesional dengan enginer WordPress, Joomla, Drupal, Blogger, Website Static. Pengerjaan cepat dan profesional',
+      active: true, # Add true to select section
+    }
+  - {
+      name: Branding,
+      icon: ti-vector,
+      description: 'Kami juga menawarkan jasa pembuatan merk dagang atau sejenisnya, merk ini diuat dengan keutamaan tanpa duplikasi atau peniruan dari merk yang lain. Merk akan terkesan profesional..',
+      active: ,# Add true to select section
+    }
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image: 'assets/images/portfolio/office.png'
+    url: '/portfolio'
+
+  - image: 'assets/images/portfolio/all_computer.png'
+    url: '/portfolio'
+
+  - image: 'assets/images/portfolio/pc.jpg'
+    url: '/portfolio'
+
+  - image: 'assets/images/portfolio/web-design-4.jpg'
+    url: '/portfolio'
+
+  - image: 'assets/images/portfolio/app.jpg'
+    url: '/portfolio'
+
+# Portfolio Page
+portfolio-label:
+  - { title: 'UI/UX Design', type: 'design' }
+  - { title: 'BRANDING', type: 'branding' }
+  - { title: 'SERVICE', type: 'service' }
+  - { title: 'WEBSITE', type: 'website' }
+
+portfolio-items:
+  - image: 'assets/images/portfolio/web-design-1.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'design'
+      - type: 'website'
+  - image: 'assets/images/portfolio/app.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'design'
+      - type: 'website'
+  - image: 'assets/images/portfolio/web-design-2.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'design'
+      - type: 'website'
+  - image: 'assets/images/portfolio/web-design-3.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'design'
+      - type: 'website'
+  - image: 'assets/images/portfolio/web-design-4.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'design'
+      - type: 'website'
+  - image: 'assets/images/portfolio/monitor-3-baris.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+  - image: 'assets/images/portfolio/pc.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+  - image: 'assets/images/portfolio/pemasangan-camera-cctv.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+  - image: 'assets/images/portfolio/pemasangan-rechiver-cctv.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+  - image: 'assets/images/portfolio/pemasangan-rechiver-cctv-2.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+  - image: 'assets/images/portfolio/bongkar-pc-mini.jpg'
+    url: '#'
+    portfolio-type:
+      - type: 'service'
+
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: 'Tanisa Azzahra'
+    image: 'assets/images/testimonial/tanisazahra.jpg'
+    designation: 'Author TanisaZahra blog, Author'
+    content: 'Rekomended nih cocok buat kalian yang mau buat persnal blog untuk mungkin sekedar menulis pengalaman hidup kalian, bisa juga untuk menulis kegiatan kalian. Blog buatan DotComp Studio ini juga bisa di MONETISASI yang artinya isa untuk kalian jadikan lahan untuk mencari pundi-pundi rupiah.'
+
+  - name: 'Andhia'
+    image: 'assets/images/testimonial/client-1.png'
+    designation: 'Owner Website DramaWiki, Marketing From India'
+    content: 'Thanks for give me a disccount sir, now i recommend this studio for you. if you create a website, aplication or other service lets fast go to DotComp Studio why? because this studio verry fast respont and verry good jobs.'
+
+  - name: 'Khai'
+    image: 'assets/images/testimonial/khai.png'
+    designation: 'CEO DC Studio, Author'
+    content: 'Hai aku adalah pemilik dari DotComp Studio, Disini aku erterimakasih kepada client yang sudak mau memberikan testimoni secara jujur. Untuk kalian yang mau mengirim testimoni juga di persilahkan dan juga kalian bisa mengirim kritik serta saran kepada kami (DC Studio). Hormat saya, Terimakasih banyak.'
+
+    
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: 'assets/images/clients-logo/khaiuta.png'
+    url: 'https://khaiuta.blogspot.com'
+
+  - logo: 'assets/images/clients-logo/importir.png'
+    url: '#'
+
+  - logo: 'assets/images/clients-logo/partner.png'
+    url: '#'
+
+  - logo: 'assets/images/clients-logo/partner.png'
+    url: '#'
+
+  - logo: 'assets/images/clients-logo/partner.png'
+    url: '#'
+  - logo: 'assets/images/clients-logo/partner.png'
+    url: '#'
+  - logo: 'assets/images/clients-logo/partner.png'
+    url: '#'
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: contact.dcstudio@gmail.com

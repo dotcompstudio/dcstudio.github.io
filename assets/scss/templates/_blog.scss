@@ -1,0 +1,36 @@
+.card-lg {
+  flex-direction: row-reverse;
+  align-items: center;
+
+  @include desktop {
+    flex-direction: column;
+  }
+}
+
+blockquote > p {
+  font-family: $secondary-font;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #d1e1f0;
+  border-left: 2px solid $primary-color;
+  font-style: italic;
+  font-size: 17px;
+  line-height: inherit;
+}
+
+.content {
+  * {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  strong {
+    font-family: $secondary-font;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: normal;
+    color: $text-color-dark;
+    display: inherit;
+    line-height: 1.5;
+  }
+}
