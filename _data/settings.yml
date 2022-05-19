@@ -7,10 +7,10 @@ logo: assets/images/dc-logo.png
 author: DC Studio
 description: DotComp Studio Service Center And Website Online Solution For Your business
 email: contact.dcstudio@gmail.com
-phone: 08234050150
+phone: 082340501509
 
 address: LB, Pengadangan, Lombok Timur, Nusa Tenggara Barat, Indonesia
-copyright: Copyright &copy; 2021 [DC Studio](https://dcstudio.my.id)
+copyright: Copyright &copy; 2022 [DC Studio](https://dcstudio.my.id)
 
 menu:
   - { name: About, link: '/about' }
@@ -161,7 +161,6 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
   - { title: 'UI/UX Design', type: 'design' }
-  - { title: 'BRANDING', type: 'branding' }
   - { title: 'SERVICE', type: 'service' }
   - { title: 'WEBSITE', type: 'website' }
 
