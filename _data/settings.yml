@@ -160,9 +160,12 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: 'UI/UX Design', type: 'design' }
   - { title: 'SERVICE', type: 'service' }
   - { title: 'WEBSITE', type: 'website' }
+  
+portfolio-label2:
+  - { title: 'UI/UX Design', type: 'design' }
+  - { title: 'Nothing', type: 'service' }
 
 portfolio-items:
   - image: 'assets/images/portfolio/web-design-1.jpg'
