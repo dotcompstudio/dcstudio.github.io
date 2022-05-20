@@ -10,7 +10,7 @@
     overflow: hidden;
   }
   @include mobile {
-    background: #7bbefa url('/assets/images/illustrations/bghero.png') no-repeat scroll;
+    background: $primary-color url('/assets/images/illustrations/bghero.png') no-repeat scroll;
     background-position: center;
     position: relative;
     padding: 280px 0 180px;
@@ -106,12 +106,12 @@
   border: 2px solid #fff;
   border-radius: 10px;
   background: #fff;
-  color: #7bbefa;
+  color: $primary-color;
   padding: 12px 38px;
 }
 .tombol-hero:hover,
 .tombol-hero:focus {
-  background-color: #7bbefa;
+  background-color: $primary-color;
   color: white;
 }
 
@@ -120,12 +120,12 @@
   font-size: 1.2rem;
   border: 2px solid #fff;
   border-radius: 10px;
-  background: #7bbefa;
+  background: $primary-color;
   color: #fff;
   padding: 12px 38px;
 }
 .tombol-hero-line:hover,
 .tombol-hero-line:focus {
   background-color: #fff;
-  color: #7bbefa;
+  color: $primary-color;
 }
